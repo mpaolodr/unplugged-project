@@ -98,28 +98,160 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   .content-wrapper {
-     border: 5px solid black
+
+
+   /*----------------Base Header - Footer Styles--------------------*/
+
+   header, 
+   footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
    }
 
-   .hero-area, .mission, .faq {
-     border: 5px solid blue;
+   /*Header Styles*/
+   
+   header {
+    
    }
-   .form-description, .form, .mission-content, .faq-items {
-     border: 5px solid red;
+
+   header .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow:row wrap;
    }
-   .features, .contact-section {
-     border:5px solid yellow;
+
+   .header-divider {
+
    }
-   .features-items, .contact-content {
-     border: 5px solid green;
+
+   header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
    }
+
+   header nav ul {
+     display: flex;
+     justify-content: space-around;
+   }
+
+   /*----------------Mobile Styles - Homepage--------------------*/
+
+   .hero-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+   }
+
+   aside {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+   }
+
+   .form-description {
+    
+   }
+
+   .form {
+     
+   }
+
+   .features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+   }
+
+   .features-items {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-flow: row wrap;
+    
+   }
+
+   .fontawesome-icon {
+
+   }
+
+   .features-item-description {
+     
+   }
+
+   .reviews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+   }
+
+  /*----------------Mobile Styles - About--------------------*/
+
+  .mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  .contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  /*----------------Mobile Styles - FAQ--------------------*/
+  .faq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  .faq .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+   /*Footer Styles*/
+   
+
    .footer-content {
-     border: 5px solid purple;
+
    }
-   .contact, .social {
-     border: 5px solid orange;
+
+   .contact {
+
    }
+
+   .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .copyright {
+
+   }
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
