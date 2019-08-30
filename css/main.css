@@ -102,16 +102,16 @@ textarea {
      border: 5px solid black
    }
 
-   .hero-area {
+   .hero-area, .mission, .faq {
      border: 5px solid blue;
    }
-   .form-description, .form {
+   .form-description, .form, .mission-content, .faq-items {
      border: 5px solid red;
    }
-   .features {
+   .features, .contact-section {
      border:5px solid yellow;
    }
-   .features-items {
+   .features-items, .contact-content {
      border: 5px solid green;
    }
    .footer-content {
