@@ -98,6 +98,28 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   .content-wrapper {
+     border: 5px solid black
+   }
+
+   .hero-area {
+     border: 5px solid blue;
+   }
+   .form-description, .form {
+     border: 5px solid red;
+   }
+   .features {
+     border:5px solid yellow;
+   }
+   .features-items {
+     border: 5px solid green;
+   }
+   .footer-content {
+     border: 5px solid purple;
+   }
+   .contact, .social {
+     border: 5px solid orange;
+   }
 /* ==========================================================================
    Helper classes
    ========================================================================== */
