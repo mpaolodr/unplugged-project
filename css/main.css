@@ -114,13 +114,17 @@ textarea {
     }
 
     a {
-    color: #e2e3ed;
+     color: #e2e3ed;
+     font-family: 'open sans', sans-serif;
+     font-weight: 700;
      text-decoration: none;
+     text-transform: uppercase;
     }
 
     h1 {
       font-family: 'Poppins', sans-serif;
       font-size: 3.75em;
+      color: #e2e3ed;
       line-height: 100%;
     }
 
@@ -162,6 +166,8 @@ textarea {
 
    header, 
    footer {
+    background-color: #202322;
+    color: #e2e3ed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -211,7 +217,7 @@ textarea {
    }
 
    .footer-content {
-
+    text-align: center;
    }
 
    footer .contact {
@@ -239,6 +245,7 @@ textarea {
    /*-Hero Area-*/
    
    .hero-area {
+    background-color: #1a2c2a;
     display: flex;
     justify-content: center;
     flex-flow: row wrap;  /*set to row wrap even though there's only one div so it fills the entire row*/
@@ -247,15 +254,23 @@ textarea {
   /*-Aside-*/
 
   aside {
+    background-color: #527158;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
   }
 
+  aside h3,
+  aside p {
+    color: #e2e3ed;
+  }
+
  /*-Features-*/
 
  .features {
+  background-color: #1a2c2a;
+  color: #e2e3ed;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -284,6 +299,8 @@ textarea {
  /*-Reviews-*/
 
  .reviews {
+  background-color: #2a423a;
+  color: #e2e3ed;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -303,6 +320,8 @@ textarea {
 
  .mission {
   display: flex;
+  background-color: #527158;
+  color: #e2e3ed;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
@@ -310,6 +329,8 @@ textarea {
 
  .contact-section {
   display: flex;
+  color: #e2e3ed;
+  background-color: #2a423a;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
@@ -322,6 +343,9 @@ textarea {
   /*=====Mobile Styles - FAQ Page======*/
 
   .faq {
+    
+    background-color: #527158;
+    color: #e2e3ed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -342,6 +366,31 @@ textarea {
 
   .faq-items {
     margin-bottom: 50px;
+  }
+
+  aside .form {
+    margin-top: 30px;
+  }
+   
+  input[type=text] {
+    box-sizing: border-box;
+    width: 100%;
+    color: #2a423a;
+    font-style: italic;
+  }
+   
+  input[type=button] {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 20px;
+    background-color: #2a423a;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.125em;
+    color: #e2e3ed;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
   }
 
 
@@ -577,7 +626,14 @@ textarea {
 
   .content-wrapper {
     max-width: 960px;
+    width: 90%;
     margin: 50px 0;
+  }
+
+
+  header .content-wrapper {
+    justify-content: space-between;
+    
   }
 
   /*===Homepage Styles===*/
@@ -585,7 +641,7 @@ textarea {
 
   /*Hero-Area Styles*/
   .hero-area h1 {
-    width:75%;    
+    width:75%; 
   }
   
   /*Aside Styles*/
