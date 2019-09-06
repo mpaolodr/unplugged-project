@@ -97,6 +97,63 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+    /*----General Styles----*/
+
+    html {
+      font-size: 16px;
+    }
+
+    body {
+      font-family: 'Open sans', sans-serif;
+      font-size: 1em;
+    }
+
+    ul,
+    ol {
+      list-style: none;
+    }
+
+    a {
+    color: #e2e3ed;
+     text-decoration: none;
+    }
+
+    h1 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 3.75em;
+      line-height: 100%;
+    }
+
+    h2 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 2.25em;
+      line-height: 100%;
+    }
+
+    h3,
+    h4 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.875em;
+      line-height: 100%;
+    }
+
+    p {
+
+    }
+
+    img {
+
+
+    }
+
+    figure {
+
+    }
+
+    address {
+      font-style: normal;
+      font-family: 'open sans', sans-serif;
+    }
 
    .content-wrapper {
      width: 90%;
@@ -457,13 +514,13 @@ textarea {
  
     /* Footer */
     footer .content-wrapper {
-        width: 100%;
+        width: 65%;
         margin: 100px 0;
     }
     
     .footer-content {
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
       align-items: center;
     }
  
@@ -472,7 +529,7 @@ textarea {
     }
  
     footer .copyright {
-        width: 30%;
+        width: 100%;
         
     }
 
@@ -575,6 +632,19 @@ textarea {
 
   .faq-items {
     flex-basis: 40%;
+  }
+
+  .footer-content {
+    justify-content: space-around;
+  }
+
+  .footer-content .contact,
+  .footer-content .social {
+    width:30%;
+  }
+
+  .footer-content .social .social-icons {
+    justify-content: space-between;
   }
 
 
