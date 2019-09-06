@@ -123,22 +123,20 @@ textarea {
 
     h1 {
       font-family: 'Poppins', sans-serif;
-      font-size: 3.75em;
+      font-size: 2.25em;
       color: #e2e3ed;
-      line-height: 100%;
     }
 
     h2 {
       font-family: 'Poppins', sans-serif;
-      font-size: 2.25em;
-      line-height: 100%;
+      font-size: 1.875em;
+      line-height: 30px;
     }
 
     h3,
     h4 {
       font-family: 'Poppins', sans-serif;
-      font-size: 1.875em;
-      line-height: 100%;
+      font-size: 1.125em;
     }
 
     p {
@@ -146,12 +144,12 @@ textarea {
     }
 
     img {
-
+      width: 100%;
 
     }
 
     figure {
-
+      margin: 0;
     }
 
     address {
@@ -184,6 +182,14 @@ textarea {
     align-items: center;
     flex-flow: row wrap;
    }
+
+   header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
 
    .header-divider {
     width: 100%;
@@ -245,8 +251,10 @@ textarea {
    /*-Hero Area-*/
    
    .hero-area {
-    background-color: #1a2c2a;
+    background: #1a2c2a url('../img/unsplash.jpg') no-repeat center;
+    background-size: cover;
     display: flex;
+    height: 500px;
     justify-content: center;
     flex-flow: row wrap;  /*set to row wrap even though there's only one div so it fills the entire row*/
    }
@@ -266,10 +274,15 @@ textarea {
     color: #e2e3ed;
   }
 
+  aside .content-wrapper {
+    margin: 30px 0 50px 0;
+  }
+
  /*-Features-*/
 
  .features {
-  background-color: #1a2c2a;
+  background: #1a2c2a url('../img/features.jpg') no-repeat center;
+  background-size: cover;
   color: #e2e3ed;
   display: flex;
   justify-content: center;
@@ -312,7 +325,12 @@ textarea {
 
  .reviews h3 {
   width: 50%;
-  margin: 20px 0;
+ }
+
+ .reviews p {
+   line-height: 18px;
+   font-size: .875em;
+   margin-bottom: 45px;
  }
 
 
@@ -509,6 +527,10 @@ textarea {
     justify-content: space-between;
   }
 
+  header figure {
+    width: 30%;
+  }
+
   header nav {
     width: 30%;
   }
@@ -554,11 +576,30 @@ textarea {
 
     .reviews article {
       display: flex;
-      justify-content: flex-start;
+      justify-content: space-between;
+    }
+
+    .reviews article figure {
+      width: 50%;
     }
     
     .reviews article div {
-        width: 50%;        
+        width: 50%;
+        padding-left: 10px;        
+    }
+
+    .reviews h3 {
+      margin: 0;
+      font-size: 1.5em;
+      font-weight: 300;
+      line-height: 30px;
+    }
+
+    .reviews p {
+      margin: 0;
+      padding-top: 20px;
+      font-size: 0.875em;
+      line-height: 18px;
     }
  
     /* Footer */
@@ -570,15 +611,25 @@ textarea {
     .footer-content {
       display: flex;
       justify-content: space-between;
-      align-items: center;
+      
+    }
+
+    footer .contact, 
+    footer .social {
+      width: 40%;
     }
  
     footer .contact {
         margin-bottom: 0;
     }
+
+    footer .social-icons {
+      display: flex;
+      justify-content: space-around;
+    }
  
     footer .copyright {
-        width: 100%;
+        text-align: center;
         
     }
 
@@ -632,16 +683,23 @@ textarea {
 
 
   header .content-wrapper {
-    justify-content: space-between;
-    
+    justify-content: space-between; 
+  }
+
+  header h1 {
+    font-size: 3.75em;
   }
 
   /*===Homepage Styles===*/
 
 
   /*Hero-Area Styles*/
-  .hero-area h1 {
-    width:75%; 
+  .hero-area {
+    height: 600px;
+  }
+  .hero-area h1 { 
+    font-size: 3.75em;
+    font-weight: 300;
   }
   
   /*Aside Styles*/
@@ -655,13 +713,29 @@ textarea {
         width: 30%;
   }
 
+  aside h3 {
+    font-size: 1.875em;
+    font-weight: 300;
+  }
+
+  aside p {
+    font-size: 1.125em;
+    line-height: 24px;
+  }
+
   /*features*/
 
   .features h2 {
-    width: 80%;
+    font-size: 2.25em;
+    font-weight: 300;
   }
   .features article {
     flex-basis: 30%;
+  }
+
+  .features article p {
+    font-size: 1.125em;
+    line-height: 24px;
   }
 
   /* Reviews */ 
