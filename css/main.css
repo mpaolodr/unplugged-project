@@ -307,6 +307,13 @@ textarea {
 
  .features p {
   margin: 0;
+  text-align: center;
+ }
+
+ .features i {
+   font-size: 3.75em;
+   margin-bottom: 40px;
+   
  }
 
  /*-Reviews-*/
@@ -579,12 +586,16 @@ textarea {
       display: flex;
       justify-content: center;
       align-items: center;
-      flex-flow: row wrap;
+      flex-direction: column;
       flex-basis: 50%;
     }
 
     .features .features-item-description {
       width: 50%;
+    }
+
+    .features i {
+      margin-bottom: 30px;
     }
 
     /* Reviews */
