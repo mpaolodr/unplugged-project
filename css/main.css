@@ -673,6 +673,10 @@ textarea {
       width: 50%;
   }
 
+  .map figure {
+    padding-bottom: 46%;
+  }
+
   .contact-section .content-wrapper h2 {
       width: 88%;
   }
@@ -762,6 +766,10 @@ textarea {
 
   .mission h2 {
     width: 100%;
+  }
+
+  .map figure {
+    padding-bottom: 38%;
   }
 
   .contact-section .content-wrapper h2 {
