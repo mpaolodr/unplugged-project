@@ -240,6 +240,12 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #e2e3ed;
+    border: 1px solid #527158;
+    border-radius: 75px;
+    height:40px;
+    width:40px;
+    background-color: #527158;
    }
 
    footer .copyright {
@@ -808,7 +814,7 @@ textarea {
   }
 
   .footer-content .social .social-icons {
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
 
